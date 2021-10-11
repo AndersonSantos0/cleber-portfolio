@@ -102,6 +102,28 @@ const Home = ({ setActiveSection }: HomeProps) => {
             <h1>{about.name}</h1>
             <h2>{about.profession}</h2>
             <p>{about.description}</p>
+            <div>
+              <Link href="https://github.com/cleber-lopes-silva">
+                <a>
+                  <Image
+                    width={32}
+                    height={32}
+                    src="/data/about/github.svg"
+                    alt="github"
+                  />
+                </a>
+              </Link>
+              <Link href="https://www.linkedin.com/in/cleber-lopes-araujo/">
+                <a>
+                  <Image
+                    width={32}
+                    height={32}
+                    src="/data/about/linkedin.svg"
+                    alt="github"
+                  />
+                </a>
+              </Link>
+            </div>
           </ProfileInfo>
         </ProfileContainer>
         <SkillsContainer ref={skillsRef} id="skills">

@@ -141,6 +141,23 @@ export const ProfileInfo = styled.div`
     font-size: 1.1rem;
     color: var(--gray-light);
   }
+
+  > div {
+    display: flex;
+    padding-top: 1rem;
+    gap: 0.5rem;
+
+    > a {
+      transition: 0.4s transform;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+  }
 `
 
 // Skills
