@@ -12,6 +12,26 @@ interface aboutT {
 export const about: aboutT = {
   name: 'Cleber Lopes da Silva Araujo',
   profession: 'Quality assurancer',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  description: `Atuo a quatro anos como QA - Agile
+    - Análise e report de bugs.
+    - Acompanhamento da correção dos erros encontrados.
+    - Automação Web com cypress com padrão pageobjects e implementação de casos de teste com Cucumber.
+    - Automação Api com cypress.
+    - Criações e execuções de scripts de testes automatizados utilizando Selenium WebDriver com C# e JUnit.
+    - Criação e execução de mapeamentos de testes manuais.
+    - Documento de evidência.
+    - Envio de Status Report diário a fim de um melhor controle das entregas diárias.
+    - Modelagem de cenários.
+    - Gerenciamento de cenários, evidências e métricas feitas através do JIRA.
+    - Proposta de melhorias no negócio e processos.
+    - Teste de aceitação, regressão, exploratório.
+    - Testes em plataformas web.
+    - Testes funcionais (regressão, funcional exploratório)
+    - Teste não-funcionais, usabilidade, performance e carga(JMeter e Blazemeter)
+    - Teste de stress, performance e carga com ( JMeter e Blazemeter).
+    - Utilizando Postman para testar serviços RESTful por meio do envio de requisições HTTP.
+    - Metodologia ágil framework Scrum.
+    - Utilização de Kanban.
+    - Experiência na área análise
+    - Excel Avançado ((Conhecimento de fórmulas absolutas, múltiplas planilhas, funções de procura (PROCH e PROCV), banco de dados, função condicional (SE), tabela dinâmica, macros, funções financeiras, gráficos e dashboard gerenciais).`
 }
